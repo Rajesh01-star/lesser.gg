@@ -1,0 +1,119 @@
+body {
+  background-image: url(images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 15rem;
+}
+
+body .container .card {
+  height: auto;
+  padding-bottom: 1rem;
+  background-color: #f5f7ff;
+  font-family: "Red Hat Display", sans-serif;
+  width: 23rem;
+  border-radius: 1.5rem;
+}
+
+body .container .card img {
+  border-radius: 1.5rem 1.5rem 0 0;
+}
+
+body .container .card .title {
+  font-size: 1.5rem;
+  font-weight: 750;
+  color: #1f2f56;
+  margin-top: 1.6rem;
+  text-align: center;
+}
+
+body .container .card .sub-text {
+  font-size: 1.1rem;
+  text-align: center;
+  font-weight: 300;
+  color: #1f2f56;
+}
+
+body .container .card .price {
+  height: 4rem;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 2fr 1fr;
+      grid-template-columns: 1fr 2fr 1fr;
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+  justify-items: start;
+  width: 22rem;
+  text-align: center;
+  background-color: #f5f7ff;
+  margin-bottom: 2rem;
+}
+
+body .container .card .price .plan {
+  padding-left: 1.5rem;
+  height: 2rem;
+  font-size: 0.9rem;
+  font-weight: 650;
+}
+
+body .container .card .price .cost {
+  padding-left: 1.5rem;
+  -ms-grid-row: 2;
+  grid-row: 2;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+  margin-top: -2rem;
+}
+
+body .container .card .price img {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+  -ms-grid-column-align: end;
+      justify-self: end;
+}
+
+body .container .card .price .change {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 1;
+  grid-column: 3/4;
+  color: #1f2f56;
+  font-weight: 500;
+}
+
+body .container .card .btn {
+  border-radius: 1rem;
+}
+
+body .container .card .proceed {
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  width: 20rem;
+  border-radius: 0.5rem;
+  font-size: 16px;
+  font-weight: 600;
+  -webkit-box-shadow: 0 -5px 10px 5px #1f2f56;
+          box-shadow: 0 -5px 10px 5px #1f2f56;
+}
+
+body .container .card .cancel {
+  background-color: #f5f7ff;
+  width: 20rem;
+  margin: 0 auto;
+  font-size: 16px;
+  font-weight: 300;
+  border: none;
+}
+/*# sourceMappingURL=styles.css.map */
